@@ -45,12 +45,36 @@ section#icons {
     position: absolute;
     top: 0px;
     right: 0px;
+    padding: 10px;
+    text-align: left;
 }
 
-section#icons > img {
+
+section#icons img {
     width: 8vh;
     height: 8vh;
     display: block;
-    padding: 10px;
     border-radius: 50%;
+    margin: 10px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.489);
+}
+
+section#icons img:hover {
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 8px 8px 5ppx rgba(0, 0, 0, 0.531);
+    transform: translate(-5px, -5px);
+    transition: transform .3s;
+}
+
+section#bola {
+    background-color: transparent;
+    position: absolute;
+    width: 5vh;
+    height: 5.5vh;
+    top: 94%;
+    left: 50%;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.214);
+    
 }
