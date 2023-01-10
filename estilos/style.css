@@ -36,8 +36,9 @@ iframe {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 34.2vh;
-    height: 61.8vh;
+    width: 34.3vh;
+    height: 61vh;
+    padding-top: 1vh;
 }
 
 section#icons {
