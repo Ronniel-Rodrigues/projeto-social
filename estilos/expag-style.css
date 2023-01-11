@@ -21,6 +21,8 @@ a {
     display: block;
     background-color: red;
     position: fixed;
-    bottom: 0px;
-    width: 100%;
+    bottom: 2vh;
+    left: 9vw;
+    width: 80vw;
+    border-radius: 50px;
 }
